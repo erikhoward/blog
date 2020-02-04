@@ -1,0 +1,61 @@
+baseURL = "https://erikhoward.net"
+languageCode = "en-us"
+title = "Erik Howard"
+theme = "hugo-mundana"
+googleAnalytics = "UA-114698733-1"
+summaryLength = 25
+#Paginate = 6
+disqusShortname = "erikhoward"
+
+[params]
+    title = "Erik Howard"
+    author = "Erik Howard"
+    description = "Erik Howard is a programmer, photographer, musican producer, technologist, husband and father"
+    keywords = ["erik howard", "data science", "R", "development", "technology"]
+    featured = 5
+    authorAvatar = "profile.jpg"
+    authorName = "Erik Howard"
+    authorTwitter = "https://twitter.com/erik_howard"
+    authorBio = "I love curry!"
+    #mailchimpAction = "https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b"
+
+    enableDisqus = true
+    enableRSS = true
+    enableTwitterCard = true
+    enableGoogleAnalytics = true
+    enableSearch = false
+
+    # Add custom assets with their paths relative to the static folder
+    customCSS = []
+	customJS  = []
+
+    # twitter settings
+    twitter = "@erik_howard"
+
+[permalinks]
+    posts = "blog/:slug/"
+  
+[menu]
+    [[menu.nav]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+
+    [[menu.nav]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog"
+    weight = 20
+
+    [[menu.nav]]
+    identifier = "about"
+    name = "About"
+    url = "/about"
+    weight = 30
+
+    [[menu.nav]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact"
+    weight = 40
