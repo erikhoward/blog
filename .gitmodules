@@ -1,0 +1,3 @@
+[submodule "themes/hugo-mundana"]
+	path = themes/hugo-mundana
+	url = https://github.com/erikhoward/hugo-mundana.git
